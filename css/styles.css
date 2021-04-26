@@ -1,0 +1,52 @@
+.primary-color{
+    color:#31BEF4;
+}
+
+.navbar{
+    background-color:#31BEF4;
+}
+
+#logo img:first-of-type{
+    width:1.2rem;
+}
+.navbar li a{
+    font-size: 1.3rem!important;
+}
+.navbar li a:not(.dropdown-item, .btn){
+    color: #fff!important;
+    margin: 0 0.5rem;
+}
+
+.btn{
+    transition: all 0.4s linear;
+}
+
+li .btn:hover{
+    background-color: #fff;
+    color: #31BEF4!important;
+}
+
+main{
+    padding-top:8rem;
+}
+
+.about h1{
+    font-size: 3.8rem;
+}
+.about p{
+    font-size: 1.5rem;
+}
+
+.about .action .btn{
+    text-transform:uppercase;
+    font-size:1.05rem;
+    font-weight:bold;
+}
+
+.about .action .btn:last-of-type{
+    color: #525252;   
+}
+
+.about .action .btn:first-of-type:hover{
+    background-color:#35aedf!important;
+}
